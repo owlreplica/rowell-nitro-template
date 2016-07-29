@@ -75,6 +75,7 @@ figure {
 #become-logo {
   margin-left: 70px;
   margin-top: 5px;
+  margin-bottom: 10px;
 }
 #become-aside {
   padding-top: 10px;
@@ -443,10 +444,10 @@ body.offcanvas #become-main, body.offcanvas .become-nav-toggle {
   -moz-flex-wrap: wrap;
 }
 .become-cards .become-flex-wrap > div {
-  width: 49.5%;
+  width: 49%;
   margin-right: 1%;
   background: #fff;
-  padding: 30px;
+  padding: 20px;
   margin-bottom: 10px;
 }
 .become-cards .become-flex-wrap > div:nth-of-type(1) {
@@ -1122,12 +1123,48 @@ body.offcanvas #become-main, body.offcanvas .become-nav-toggle {
 .js .animate-box {
   opacity: 0;
 }
-.work-item a h3.offer-title {
-  font-size: 16px;
+
+/*[rowell] new styles*/
+.become-search-box .become-search-field.form-control {
+  height: 39px;
+  margin-left: 3px;
 }
-.work-item a p.offer-price {
-  color: #ff0000;
+.btn-become {
+  min-width: 90px;
+  font-size: 14px;
+}
+.become-pserp div.become-img-holder{
+  margin-bottom: 10px;
+}
+.become-pserp div.become-img-holder img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.become-pserp h4.become-offer-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+}
+.become-pserp p.become-offer-price {
+  color: #d40000;
   font-weight: bold;
+  margin-bottom: 10px;
+}
+.become-pserp p.become-quick-btn-group {
+  float: right;
+}
+.become-offer-merchant {
+  background-repeat: no-repeat;
+  font-size: 1.3rem;
+  padding-left: 22px;
+  margin-bottom: 5px;
+}
+.become-offer-merchant-rakuten {
+  background-image: url('http://bcm.b-static.com/img/common/pserp/micon-rakuten.png.static');
+  background-size: auto 18px;
 }
 
 /*# sourceMappingURL=style.css.map */
