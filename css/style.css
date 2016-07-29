@@ -80,8 +80,7 @@ figure {
 #become-aside {
   padding-top: 10px;
   padding-bottom: 40px;
-  /*width: 15%;*/
-  width: 270px;
+  width: 20%;
   position: fixed;
   bottom: 0;
   top: 0;
@@ -94,11 +93,11 @@ figure {
 #become-aside.border {
   border-right: 1px solid #e6e6e6;
 }
-/*@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   #become-aside {
     width: 30%;
   }
-}*/
+}
 @media screen and (max-width: 768px) {
   #become-aside {
     width: 270px;
