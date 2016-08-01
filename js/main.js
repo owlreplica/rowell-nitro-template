@@ -133,6 +133,18 @@
 				$('body').addClass('offcanvas');	
 			}
 		});
+		$('.js-become-nav-toggle-right').on('click', function(event){
+			event.preventDefault();
+			var $this = $(this);
+
+			if ($('body').hasClass('offcanvas-right')) {
+				$this.removeClass('active');
+				$('body').removeClass('offcanvas-right');	
+			} else {
+				$this.addClass('active');
+				$('body').addClass('offcanvas-right');	
+			}
+		});
 
 
 
