@@ -1132,10 +1132,11 @@ body.offcanvas #become-main, body.offcanvas .become-nav-toggle {
   min-width: 90px;
   font-size: 14px;
 }
-.become-pserp div.become-img-holder{
+.become-pserp .become-img-holder {
+  display: block;
   margin-bottom: 10px;
 }
-.become-pserp div.become-img-holder img {
+.become-pserp .become-img-holder img {
   display: block;
   max-width: 100%;
   height: auto;
